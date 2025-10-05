@@ -1,9 +1,5 @@
-# Project Setup
-    
-    To run this project, follow these steps:
-    
-    1. Extract the zip file.
-    2. Run `npm install` to install dependencies.
-    3. Run `npm run dev` to start the development server.
-    
-    This project was generated through Alpha. For more information, visit [dualite.dev](https://dualite.dev).
+# Vansh Chauhan's Personal Portfolio
+
+    This is the personal portfolio website for Vansh Chauhan, a passionate Full Stack Developer. It showcases a collection of my projects, skills, and professional journey as a Full Stack Developer.
+
+    Live Demo: https://vanshchauhan.vercel.app
