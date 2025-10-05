@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-white text-gray-600 font-mono transition-colors duration-300;
+    @apply dark:bg-gray-900 dark:text-gray-300;
+  }
+  ::selection {
+    @apply bg-blue-500/20 dark:bg-blue-400/20;
+  }
+}
