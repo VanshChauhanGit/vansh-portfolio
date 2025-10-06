@@ -154,3 +154,57 @@ export const skillsData = [
     ],
   },
 ];
+
+export const projectsData = [
+  {
+    title: "EasyWrite - Blog App",
+    description:
+      "EasyWrite is a user-friendly blog web app that allows users to easily create, read, update and delete blog posts. It features a clean and modern design, providing a seamless writing and reading experience.",
+    imageUrl: "./projects/easywrite.png",
+    tags: ["React", "Javascript", "Appwrite", "Tailwind CSS", "Redux"],
+    liveUrl: "https://easywrite.netlify.app/",
+    sourceUrl: "https://github.com/VanshChauhanGit/EasyWrite-Blog-App",
+    category: "Web App",
+  },
+  {
+    title: "DoQueue - Todo App",
+    description:
+      "A streamlined to-do list web app designed to enhance productivity and task management. DoQueue allows users to create, organize, and prioritize tasks with an intuitive interface. The app ensures a smooth user experience with features like task status updates and real-time synchronization.",
+    imageUrl: "./projects/doqueue.png",
+    tags: ["React", "Tailwind CSS", "Vite"],
+    liveUrl: "https://doqueue.netlify.app/",
+    sourceUrl: "https://github.com/VanshChauhanGit/DoQueue-React-Todo-App",
+    category: "Web App",
+  },
+  {
+    title: "RedStorePro - E-Commerce Frontend App",
+    description:
+      "A sleek and visually appealing e-commerce website designed to showcase products and provide an engaging shopping experience. RedStore Pro focuses on delivering a responsive and interactive user interface, making it ideal for modern online stores.",
+    imageUrl: "./projects/redstorepro.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://redstorepro.netlify.app/",
+    sourceUrl: "https://github.com/VanshChauhanGit/RedStorePro",
+    category: "Web App",
+  },
+  {
+    title: "Weather's Hub - Real-Time Weather Web App",
+    description:
+      "A user-friendly web app that provides accurate, real-time weather updates for any location. Weather's Hub is designed with a clean and intuitive interface, making it easy to check current weather conditions and forecasts.",
+    imageUrl: "./projects/weathershub.png",
+    tags: ["API", "HTML", "JavaScript", "Bootstrap"],
+    liveUrl: "https://weathershub.netlify.app/",
+    sourceUrl: "https://github.com/VanshChauhanGit/WeathersHub",
+    category: "Web App",
+  },
+  {
+    title: "GlobalRates - Realtime Currency Converter App",
+    description:
+      "A web app that provides real-time currency conversion rates, enabling users to effortlessly convert between multiple currencies. Built with a focus on user-friendly design and accurate financial data, this app ensures seamless functionality for international travelers, businesses, and finance enthusiasts.",
+    imageUrl: "./projects/globalrates.png",
+    tags: ["API", "HTML", "JavaScript", "Bootstrap"],
+    liveUrl: "https://globalrates.netlify.app/",
+    sourceUrl:
+      "https://github.com/VanshChauhanGit/GlobalRates-Currency-Converter",
+    category: "Web App",
+  },
+];
