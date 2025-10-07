@@ -167,6 +167,22 @@ export const projectsData = [
     category: "Web App",
   },
   {
+    title: "Chatify - Realtime Chat App",
+    description:
+      "Chatify is a full-stack, real-time messaging app built mobile-first with React Native. Its robust Node.js, Express, and MongoDB backend powers authentication, profile management, and seamless communication.",
+    imageUrl: "./projects/chatify.png",
+    tags: [
+      "React Native",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Nativewind",
+      "Socket.io",
+    ],
+    sourceUrl: "https://github.com/VanshChauhanGit/Chatify-App/",
+    category: "Mobile App",
+  },
+  {
     title: "DoQueue - Todo App",
     description:
       "A streamlined to-do list web app designed to enhance productivity and task management. DoQueue allows users to create, organize, and prioritize tasks with an intuitive interface. The app ensures a smooth user experience with features like task status updates and real-time synchronization.",
@@ -177,6 +193,15 @@ export const projectsData = [
     category: "Web App",
   },
   {
+    title: "Aora App - Video Uploading App",
+    description:
+      "Aora is a full-stack mobile application for seamless video uploading and sharing. It utilizes Appwrite for its robust backend, handling user authentication, database management, and secure file storage.",
+    imageUrl: "./projects/aora.jpg",
+    tags: ["React Native", "Appwrite", "Nativewind"],
+    sourceUrl: "https://github.com/VanshChauhanGit/Aora-App",
+    category: "Mobile App",
+  },
+  {
     title: "RedStorePro - E-Commerce Frontend App",
     description:
       "A sleek and visually appealing e-commerce website designed to showcase products and provide an engaging shopping experience. RedStore Pro focuses on delivering a responsive and interactive user interface, making it ideal for modern online stores.",
@@ -185,6 +210,15 @@ export const projectsData = [
     liveUrl: "https://redstorepro.netlify.app/",
     sourceUrl: "https://github.com/VanshChauhanGit/RedStorePro",
     category: "Web App",
+  },
+  {
+    title: "SkyCast - Weather App",
+    description:
+      "This open-source weather app project is a mobile application for Android, developed using the React Native framework and Expo. It is designed to fetch and display current and forecast weather data.",
+    imageUrl: "./projects/skycast.jpg",
+    tags: ["React Native", "API", "Nativewind", "Expo"],
+    sourceUrl: "https://github.com/VanshChauhanGit/Weather-App",
+    category: "Mobile App",
   },
   {
     title: "Weather's Hub - Real-Time Weather Web App",
@@ -199,7 +233,7 @@ export const projectsData = [
   {
     title: "GlobalRates - Realtime Currency Converter App",
     description:
-      "A web app that provides real-time currency conversion rates, enabling users to effortlessly convert between multiple currencies. Built with a focus on user-friendly design and accurate financial data, this app ensures seamless functionality for international travelers, businesses, and finance enthusiasts.",
+      "This real-time currency converter web app offers seamless, accurate conversions between multiple global currencies. It features a user-friendly design, perfect for travelers and financial users.",
     imageUrl: "./projects/globalrates.png",
     tags: ["API", "HTML", "JavaScript", "Bootstrap"],
     liveUrl: "https://globalrates.netlify.app/",

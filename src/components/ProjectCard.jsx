@@ -40,15 +40,18 @@ const ProjectCard = ({ project }) => {
         </div>
 
         <div className="flex items-center gap-4 mt-auto">
-          <a
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm font-semibold text-blue-500 transition-colors dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300"
-          >
-            <ExternalLink size={16} />
-            Live Demo
-          </a>
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm font-semibold text-blue-500 transition-colors dark:text-blue-400 hover:text-blue-600 dark:hover:text-blue-300"
+            >
+              <ExternalLink size={16} />
+              Live Demo
+            </a>
+          )}
+
           <a
             href={project.sourceUrl}
             target="_blank"
