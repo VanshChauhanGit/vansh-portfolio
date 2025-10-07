@@ -71,7 +71,7 @@ const Hero = () => {
           className="mb-6 text-5xl font-extrabold text-gray-900 md:text-7xl lg:text-8xl dark:text-white"
           variants={itemVariants}
         >
-          <span className="text-blue-500 text-4 xl">I'm</span>
+          <span className="text-blue-500 text-4 xl inline-block">I'm</span>
           <span
             className="
               inline-block
@@ -132,7 +132,7 @@ const Hero = () => {
           </Link>
         </motion.div> */}
       </motion.div>
-      <div className="absolute -translate-x-1/2 bottom-10 left-1/2">
+      <div className="absolute -translate-x-1/2 bottom-5 left-1/2">
         <Link
           to="about"
           smooth={true}
