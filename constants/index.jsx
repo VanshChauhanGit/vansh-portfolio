@@ -1,16 +1,7 @@
-import {
-  Code2,
-  Palette,
-  Database,
-  Cloud,
-  Wrench,
-  Server,
-  Bolt,
-} from "lucide-react";
+import { Code2, Database, Cloud, Wrench } from "lucide-react";
 import { Github, Linkedin, Instagram } from "lucide-react";
 import {
   FaCss3Alt,
-  FaGit,
   FaGithub,
   FaHtml5,
   FaJsSquare,
@@ -26,9 +17,11 @@ import {
 } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
+import { ShieldCheck } from "lucide-react";
+import { Code, Zap, Globe, Cpu, Award } from "lucide-react";
 
 export const socialLinks = [
-  { icon: <Linkedin />, url: "https://linkedin.com/in/vanhschauhan0" },
+  { icon: <Linkedin />, url: "https://linkedin.com/in/vanshchauhan0" },
   { icon: <Github />, url: "https://github.com/vanshchauhangit" },
   { icon: <Instagram />, url: "https://instagram.com/vansh_.chauhan/" },
 ];
@@ -240,5 +233,120 @@ export const projectsData = [
     sourceUrl:
       "https://github.com/VanshChauhanGit/GlobalRates-Currency-Converter",
     category: "Web App",
+  },
+];
+
+export const certificationsData = [
+  {
+    title: "Full Stack Web Development Training",
+    issuer: "Wayspire EdTech Pvt Ltd (in collaboration with IIT Delhi's Tryst)",
+    date: "Aug 2024",
+    icon: <Code className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/training_wayspire.jpg",
+  },
+  {
+    title: "Virtual Internship Program in Web Development",
+    issuer: "CodeAlpha",
+    date: "Jul 2024",
+    icon: <Globe className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/code_alpha_certificate.jpg",
+  },
+  {
+    title: "Virtual Internship Program in Web Development",
+    issuer: "Bharat Intern",
+    date: "Mar 2024",
+    icon: <Globe className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/bharat_intern.jpg",
+  },
+  {
+    title: "Frontend Developer (React) Role Certification",
+    issuer: "HackerRank",
+    date: "Aug 2025",
+    icon: <Code className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/react_certificate.jpg",
+  },
+  {
+    title: "Prompt Engineering Bootcamp",
+    issuer: "LetsUpgrade",
+    date: "Sep 2025",
+    icon: <Cpu className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/prompt_eng.jpg",
+  },
+  {
+    title: "AI Tools and ChatGPT Workshop",
+    issuer: "be10x",
+    date: "Aug 2025",
+    icon: <Cpu className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/be10x.jpg",
+  },
+  {
+    title: "Skills Assessment Certificate (CSS Level 1)",
+    issuer: "iStudio",
+    date: "Sep 2025",
+    icon: <ShieldCheck className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/css_1.jpg",
+  },
+  {
+    title: "Webinar Completion: Job Readiness through Web Technologies",
+    issuer: "Study Comrade",
+    date: "Aug 2025",
+    icon: <Award className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/study_comprade.png",
+  },
+  {
+    title: "Full Stack Web Development Internship",
+    issuer: "Wayspire",
+    date: "Aug 2024",
+    icon: <Code className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/internship_wayspire.jpg", // internship_wayspire.jpg
+  },
+  {
+    title: "What Is Generative AI? (Course Completion)",
+    issuer: "LinkedIn Learning",
+    date: "Aug 2025",
+    icon: <Cpu className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/generative_ai_1.jpg", // generative_ai_1.jpg (Used this one as it contains more detail/ID than the other generative_ai.jpg)
+  },
+  {
+    title: "Skills Assessment Certificate (HTML Level 1)",
+    issuer: "iStudio",
+    date: "Sep 2025",
+    icon: <ShieldCheck className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/html_1.jpg", // html_1.jpg
+  },
+  {
+    title: "Skills Assessment Certificate (JavaScript Level 1)",
+    issuer: "iStudio",
+    date: "Sep 2025",
+    icon: <ShieldCheck className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/js_1.jpg", // js_1.jpg
+  },
+  {
+    title: "Basics of HTML/CSS for Beginners Training",
+    issuer: "OpenWeaver",
+    date: "Sep 2023",
+    icon: <Code className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/html_2.jpg", // html_2.jpg
+  },
+  {
+    title: "Internship Common Aptitude Test (ICAT) Participation",
+    issuer: "iCAT",
+    date: "Aug 2025",
+    icon: <Award className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/icat_participation_certificate.jpg", // icat_participation_certificate.jpg
   },
 ];
