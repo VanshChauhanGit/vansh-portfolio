@@ -176,6 +176,25 @@ export const projectsData = [
     category: "Mobile App",
   },
   {
+    title: "Resumind: AI-Powered Resume Analyzer",
+    description:
+      "Resumind is an AI-powered full-stack app providing instant, quantifiable resume analysis against job descriptions. It delivers actionable feedback to boost ATS compatibility and impress recruiters.",
+    imageUrl: "./projects/resumind.png",
+    tags: [
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Gemini API",
+      "Clerk",
+    ],
+    liveUrl: "https://resumindpro.vercel.app/",
+    sourceUrl:
+      "https://github.com/VanshChauhanGit/Resumind-AI-Powered-Resume-Analyzer",
+    category: "Web App",
+  },
+  {
     title: "DoQueue - Todo App",
     description:
       "A streamlined to-do list web app designed to enhance productivity and task management. DoQueue allows users to create, organize, and prioritize tasks with an intuitive interface. The app ensures a smooth user experience with features like task status updates and real-time synchronization.",
