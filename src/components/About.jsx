@@ -20,7 +20,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="./Vansh-Image.png"
+            src="./Vansh-Image.jpg"
             alt="A professional portrait of a person"
             className="object-cover mx-auto border-4 border-white rounded-full shadow-lg w-60 h-60 md:w-64 md:h-64 dark:border-gray-800"
           />

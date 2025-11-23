@@ -265,6 +265,14 @@ export const certificationsData = [
     imageUrl: "./certifications/training_wayspire.jpg",
   },
   {
+    title: "Web Development Internship",
+    issuer: "Flikt Technology Web Solutions",
+    date: "Nov 2025",
+    icon: <Globe className="w-6 h-6 text-white" />,
+    verifyUrl: "#",
+    imageUrl: "./certifications/internship_flikt.jpg",
+  },
+  {
     title: "Virtual Internship Program in Web Development",
     issuer: "CodeAlpha",
     date: "Jul 2024",
