@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { socialLinks } from "../../constants";
-
+import ParticlesBackground from "./lightswind/particles-background";
 const AnimatedBackground = () => (
   <div className="absolute inset-0 overflow-hidden -z-10">
     <motion.div
@@ -57,6 +57,15 @@ const Hero = () => {
       id="hero"
       className="relative flex items-center justify-center min-h-screen pt-20 overflow-hidden text-center"
     >
+      <ParticlesBackground
+        colors={["#00ffff", "#ff00ff", "#ffaa00"]}
+        size={4}
+        countDesktop={80}
+        countTablet={60}
+        countMobile={40}
+        zIndex={50}
+        height="100vh"
+      />
       <AnimatedBackground />
       <div className="absolute inset-0 bg-grid-gray-200/[0.4] dark:bg-grid-gray-700/[0.3] [mask-image:linear-gradient(to_bottom,white_5%,transparent_100%)]"></div>
       <div className="absolute inset-0 pointer-events-none bg-white dark:bg-gray-900 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
